@@ -1,3 +1,3 @@
 <?php
-	echo "This is a php program.";
+	echo "This  php program.";
 ?>
