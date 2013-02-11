@@ -1,0 +1,8 @@
+{
+    'success': true,
+    'results': [
+        {'name': '3389 22.6Kbps', 'value': 28, 'tooltip':'3389\nTotal 22.6Kbps\nUp 19.1Kbps\nDown 3.4Kbps'},
+        {'name': 'HTTP 10.4bps', 'value': 13, 'tooltip':'HTTP\nTotal 10.4bps\nUp 10.4bps\nDown 0.0bps'},
+        {'name': 'DNS 0.0bps', 'value': 10, 'tooltip':'DNS\nTotal  0.0bps\nUp 0.0bps\nDown 0.0bps'}
+    ] 
+}

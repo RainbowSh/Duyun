@@ -1,0 +1,147 @@
+﻿<chart>
+	<context_menu about='false' print='false' full_screen='true' quality='false'/>
+	<chart_type>bar</chart_type>
+	<chart_border bottom_thickness='1' left_thickness='1'/>
+	<chart_grid_h alpha='10' thickness='1' type='solid' />
+	<chart_grid_v alpha='10' thickness='1' type='solid' />
+	<axis_category bold='false' size='12' color='000000' alpha='100'/>
+	<chart_rect x='25' y='23' width='150' height='172' positive_color='ffffff' positive_alpha='0'  bevel='bg' shadow='high' />
+	<legend fill_color='ffffff' fill_alpha='0' x='25' y='0' width='150' height='20' font='arial' bold='false' size='12' alpha='100' shadow='low' />
+	<axis_value bold='false' size='12' color='000000' alpha='100' suffix='' mode='all' steps='5' max='20'/>
+	<chart_data>
+		<row>
+			<null/>
+			<string>1</string>
+			<string>2</string>
+			<string>3</string>
+			<string>4</string>
+			<string>5</string>
+			<string>6</string>
+			<string>7</string>
+			<string>8</string>
+			<string>9</string>
+			<string>10</string>
+		</row>
+		<row>
+			<string>Up</string>
+			<number bevel='bar 'shadow='low' tooltip='192.168.50.200
+Root
+Total 11.5bps
+Up  4.3bps
+Down  7.2bps'> 4.3</number>
+			<number bevel='bar 'shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar 'shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar 'shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar 'shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar 'shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar 'shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar 'shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar 'shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar 'shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+		</row>
+		<row>
+			<string>Down</string>
+			<number bevel='bar' shadow='low' tooltip='192.168.50.200
+Root
+Total 11.5bps
+Up  4.3bps
+Down  7.2bps'> 7.2</number>
+			<number bevel='bar' shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar' shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar' shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar' shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar' shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar' shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar' shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar' shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+			<number bevel='bar' shadow='low' tooltip='
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'> 0.0</number>
+		</row>
+	</chart_data>
+	<draw>
+		<rect fill_alpha='0' line_color='A1BEEF' line_thickness='1' x='0' y='0' width='379' height='219'/>
+		<rect layer='background' x='25' y='23' width='455' height='18' fill_color='A1BEEF' fill_alpha='10'/> 
+		<rect layer='background' x='25' y='57.75' width='455' height='18' fill_color='A1BEEF' fill_alpha='10'/> 
+		<rect layer='background' x='25' y='92.5' width='455' height='18' fill_color='A1BEEF' fill_alpha='10'/> 
+		<rect layer='background' x='25' y='127.25' width='455' height='18' fill_color='A1BEEF' fill_alpha='10'/> 
+		<rect layer='background' x='25' y='162' width='455' height='18' fill_color='A1BEEF' fill_alpha='10'/> 
+		<text bold='false' color='000000' size='12' x='185' y='0' width='100' height='20' h_align='center' v_align='middle'>User</text> 
+		<text bold='false' color='000000' size='12' x='285' y='0' width='45' height='20' h_align='center' v_align='middle'>Up</text> 
+		<text bold='false' color='000000' size='12' x='330' y='0' width='45' height='20' h_align='center' v_align='middle'>Down</text> 
+		<text bold='false' color='000000' size='12' x='185' y='21.00' width='100' height='18' h_align='left' v_align='middle'>192.168.50.200</text> 
+		<text bold='false' color='000000' size='12' x='285' y='21.00' width='45' height='18' h_align='right' v_align='middle'> 4.3</text> 
+		<text bold='false' color='000000' size='12' x='330' y='21.00' width='45' height='18' h_align='right' v_align='middle'> 7.2</text> 
+		<text color='000000' size='12' x='195' y='195' width='30' height='19' h_align='center' v_align='middle'>bps</text> 
+	</draw>
+	<link>
+		<area x='25' y='23' width='150' height='172' target='_self' url='/view/realtimeMonitor/top50ip.php?time=1360315226&sub=flow'/>
+		<area x='185' y='21.00' width='100' height='18' target='_self' url='/view/realtimeMonitor/servicebyipupdate.php?time=1360315226&ip=-1062718776' tooltip='Display active service'/>
+		<area x='285' y='21.00' width='90' height='18' target='_self' url='/view/realtimeMonitor/line.php?time=1360315226&object=ip&value=3232248520&values=192.168.50.200&sub=flow' tooltip='on the last one hour'/>
+	</link>
+	<tooltip font='arial' bold='false' background_color='A1BEEF' background_alpha='90'/>
+	<filter>
+		<shadow id='high' distance='5' angle='45' alpha='35' blurX='10' blurY='10' color='A1BEEF' />
+		<shadow id='low' distance='2' angle='45' alpha='35' blurX='5' blurY='5' color='A1BEEF' />
+		<bevel id='bg' angle='90' blurX='0' blurY='200' distance='50' highlightAlpha='15' shadowAlpha='15' type='inner' />
+		<bevel id='bar' angle='10' blurX='30' blurY='0' distance='20' highlightAlpha='25' highlightColor='ffffff' shadowColor='000000' shadowAlpha='20' type='inner' />
+		<bevel id='column' angle='-80' blurX='0' blurY='30' distance='20' highlightColor='ffffff' highlightAlpha='25' shadowColor='000000' shadowAlpha='20' inner='true' />
+	</filter>
+	<series_color>
+		<color>00FF00</color>
+		<color>0000FF</color>
+	</series_color>
+	<update url='/cgi-bin/realtimemonitor.cgi?update=1360315226&lan=en_US&linecolor=A1BEEF&linkcolor=2160B8&object=home&chart=column' delay='30' timeout='10' retry='100' mode='reset'/>
+</chart>

@@ -1,0 +1,57 @@
+﻿<chart>
+	<context_menu about='false' print='false' full_screen='true' quality='false'/>
+	<chart_type>3d pie</chart_type>
+	<chart_pref select='false' drag='false' rotation_x='45' />
+	<chart_data>
+		<row>
+			<null/>
+			<string>3389</string>
+			<string>HTTP</string>
+			<string>DNS</string>
+		</row>
+		<row>
+			<string></string>
+			<number tooltip='3389
+Total 22.6Kbps
+Up 19.1Kbps
+Down  3.4Kbps'>28899</number>
+			<number tooltip='HTTP
+Total 10.4bps
+Up 10.4bps
+Down  0.0bps'>13</number>
+			<number tooltip='DNS
+Total  0.0bps
+Up  0.0bps
+Down  0.0bps'>0</number>
+		</row>
+	</chart_data>
+	<chart_rect x='5' y='40' width='150' height='120' positive_color='ffffff' positive_alpha='0'  bevel='bg' shadow='high' />
+	<chart_label shadow='low' alpha='100' size='10' position='inside' as_percentage='true' />
+	<legend toggle='false' fill_color='ffffff' fill_alpha='0' x='160' y='0' width='145' height='22' bold='false' size='12' alpha='100' bullet='circle' shadow='low' />
+	<draw>
+		<rect fill_alpha='0' line_color='A1BEEF' line_thickness='1' x='0' y='0' width='379' height='219'/>
+		<text bold='false' color='000000' size='12' x='305' y='0' width='70' height='20' h_align='right' v_align='middle'>22.6Kbps</text> 
+		<text bold='false' color='000000' size='12' x='305' y='20' width='70' height='20' h_align='right' v_align='middle'>10.4bps</text> 
+		<text bold='false' color='000000' size='12' x='305' y='40' width='70' height='20' h_align='right' v_align='middle'> 0.0bps</text> 
+	</draw>
+	<link>
+		<area x='5' y='20' width='150' height='160' target='_self' url='/view/realtimeMonitor/service.php?time=1360317676'/>
+		<area x='160' y='2' width='145' height='16' target='_self' url='/view/realtimeMonitor/ipbyservice.php?time=1360317676&type=1537&service=3389' tooltip='显示在线用户'/>
+		<area x='305' y='2' width='70' height='16' target='_self' url='/view/realtimeMonitor/line.php?time=1360317676&object=service&value=1537&values=3389&sub=flow' tooltip='显示最近一小时的趋势图'/>
+		<area x='160' y='22' width='145' height='16' target='_self' url='/view/realtimeMonitor/ipbyservice.php?time=1360317676&type=1027&service=HTTP' tooltip='显示在线用户'/>
+		<area x='305' y='22' width='70' height='16' target='_self' url='/view/realtimeMonitor/line.php?time=1360317676&object=service&value=1027&values=HTTP&sub=flow' tooltip='显示最近一小时的趋势图'/>
+		<area x='160' y='42' width='145' height='16' target='_self' url='/view/realtimeMonitor/ipbyservice.php?time=1360317676&type=1026&service=DNS' tooltip='显示在线用户'/>
+		<area x='305' y='42' width='70' height='16' target='_self' url='/view/realtimeMonitor/line.php?time=1360317676&object=service&value=1026&values=DNS&sub=flow' tooltip='显示最近一小时的趋势图'/>
+	</link>
+	<tooltip font='arial' bold='false' background_color='A1BEEF' background_alpha='90'/>
+	<filter>
+		<shadow id='low' distance='2' angle='45' alpha='35' blurX='5' blurY='5' color='A1BEEF' />
+		<bevel id='bg' angle='90' blurX='0' blurY='200' distance='50' highlightAlpha='15' shadowAlpha='15' type='inner' />
+	</filter>
+	<series_color>
+		<color>FF0000</color>
+		<color>00FF00</color>
+		<color>0000FF</color>
+	</series_color>
+	<update url='/cgi-bin/realtimemonitor.cgi?update=1360314749&lan=en_US&linecolor=A1BEEF&linkcolor=2160B8&object=home&chart=pie' delay='10' timeout='10' retry='100' mode='reset'/>
+</chart>

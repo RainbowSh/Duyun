@@ -1,0 +1,221 @@
+﻿<chart>
+	<context_menu about='false' print='false' full_screen='true' quality='false'/>
+	<chart_type>line</chart_type>
+	<chart_pref line_thickness='1' point_shape='none' fill_shape='false' />
+	<chart_border bottom_thickness='1' left_thickness='1'/>
+	<chart_grid_h alpha='10' thickness='1' type='solid' />
+	<chart_grid_v alpha='10' thickness='1' type='solid' />
+	<axis_category bold='false' size='12' color='000000' alpha='100' skip='19'/>
+	<chart_rect x='55' y='50' width='240' height='140' positive_color='ffffff' positive_alpha='0'  bevel='bg' shadow='high' />
+	<legend toggle='false' fill_color='ffffff' fill_alpha='0' x='100' y='0' width='100' height='42' bold='false' size='10' alpha='100' bullet='line' shadow='low' />
+	<draw>
+		<rect fill_alpha='0' line_color='A1BEEF' line_thickness='1' x='0' y='0' width='299' height='219'/>
+		<text rotation='-90' color='000000' size='12' x='0' y='140' width='40' height='20' h_align='center' v_align='middle' >bps</text>
+	</draw>
+	<axis_value bold='false' size='12' color='000000' alpha='100' suffix='K' mode='all' steps='5' max='600'/>
+	<chart_guide horizontal='true' vertical='true'  thickness='1' color='000000' alpha='50'  type='dashed' radius='5' line_color='000000' line_alpha='75' line_thickness='2' text_color='000000' text_h_alpha='90' text_v_alpha='90' suffix_h='K' decimals='1' />
+	<chart_data>
+		<row>
+			<null/>
+			<string>17:17:50</string>
+			<string>17:18:00</string>
+			<string>17:18:10</string>
+			<string>17:18:20</string>
+			<string>17:18:30</string>
+			<string>17:18:40</string>
+			<string>17:18:50</string>
+			<string>17:19:00</string>
+			<string>17:19:10</string>
+			<string>17:19:20</string>
+			<string>17:19:30</string>
+			<string>17:19:40</string>
+			<string>17:19:50</string>
+			<string>17:20:00</string>
+			<string>17:20:10</string>
+			<string>17:20:20</string>
+			<string>17:20:30</string>
+			<string>17:20:40</string>
+			<string>17:20:50</string>
+			<string>17:21:00</string>
+			<string>17:21:10</string>
+			<string>17:21:20</string>
+			<string>17:21:30</string>
+			<string>17:21:40</string>
+			<string>17:21:50</string>
+			<string>17:22:00</string>
+			<string>17:22:10</string>
+			<string>17:22:20</string>
+			<string>17:22:30</string>
+			<string>17:22:40</string>
+			<string>17:22:50</string>
+			<string>17:23:00</string>
+			<string>17:23:10</string>
+			<string>17:23:20</string>
+			<string>17:23:30</string>
+			<string>17:23:40</string>
+			<string>17:23:50</string>
+			<string>17:24:00</string>
+			<string>17:24:10</string>
+			<string>17:24:20</string>
+			<string>17:24:30</string>
+			<string>17:24:40</string>
+			<string>17:24:50</string>
+			<string>17:25:00</string>
+			<string>17:25:10</string>
+			<string>17:25:20</string>
+			<string>17:25:30</string>
+			<string>17:25:40</string>
+			<string>17:25:50</string>
+			<string>17:26:00</string>
+			<string>17:26:10</string>
+			<string>17:26:20</string>
+			<string>17:26:30</string>
+			<string>17:26:40</string>
+			<string>17:26:50</string>
+			<string>17:27:00</string>
+			<string>17:27:10</string>
+			<string>17:27:20</string>
+			<string>17:27:30</string>
+			<string>17:27:40</string>
+		</row>
+		<row>
+			<string>WAN1 Rx</string>
+			<number> 8.2</number>
+			<number> 6.9</number>
+			<number> 6.5</number>
+			<number> 8.2</number>
+			<number> 5.3</number>
+			<number> 5.1</number>
+			<number> 6.5</number>
+			<number> 4.6</number>
+			<number> 8.7</number>
+			<number> 6.5</number>
+			<number>12.4</number>
+			<number> 6.5</number>
+			<number> 7.0</number>
+			<number> 7.7</number>
+			<number> 8.0</number>
+			<number> 8.3</number>
+			<number> 7.6</number>
+			<number> 5.2</number>
+			<number> 5.1</number>
+			<number> 8.7</number>
+			<number>10.4</number>
+			<number> 9.0</number>
+			<number> 4.2</number>
+			<number> 5.6</number>
+			<number> 8.9</number>
+			<number> 6.5</number>
+			<number> 6.3</number>
+			<number> 3.5</number>
+			<number> 7.9</number>
+			<number> 8.0</number>
+			<number> 6.7</number>
+			<number> 3.9</number>
+			<number> 5.5</number>
+			<number> 5.4</number>
+			<number> 7.6</number>
+			<number> 7.8</number>
+			<number> 5.3</number>
+			<number> 6.3</number>
+			<number> 8.8</number>
+			<number>10.1</number>
+			<number> 2.0</number>
+			<number> 1.6</number>
+			<number> 1.4</number>
+			<number> 1.4</number>
+			<number> 1.5</number>
+			<number> 1.4</number>
+			<number> 3.9</number>
+			<number>32.4</number>
+			<number> 4.5</number>
+			<number> 6.8</number>
+			<number> 7.9</number>
+			<number> 9.6</number>
+			<number> 6.1</number>
+			<number> 9.9</number>
+			<number> 9.9</number>
+			<number> 9.9</number>
+			<number> 6.0</number>
+			<number> 5.6</number>
+			<number> 6.4</number>
+			<number> 9.2</number>
+		</row>
+		<row>
+			<string>WAN1 Tx</string>
+			<number>68.6</number>
+			<number>69.4</number>
+			<number>62.7</number>
+			<number>72.0</number>
+			<number>58.2</number>
+			<number>51.3</number>
+			<number>63.0</number>
+			<number>35.4</number>
+			<number>63.4</number>
+			<number>62.6</number>
+			<number>99.2</number>
+			<number>62.2</number>
+			<number>65.2</number>
+			<number>75.3</number>
+			<number>63.4</number>
+			<number>71.4</number>
+			<number>74.4</number>
+			<number>45.5</number>
+			<number>51.1</number>
+			<number>71.0</number>
+			<number>75.3</number>
+			<number>75.4</number>
+			<number>50.3</number>
+			<number>63.1</number>
+			<number>77.2</number>
+			<number>61.3</number>
+			<number>57.3</number>
+			<number>46.7</number>
+			<number>71.8</number>
+			<number>53.9</number>
+			<number>61.2</number>
+			<number>35.1</number>
+			<number>64.3</number>
+			<number>61.3</number>
+			<number>70.5</number>
+			<number>76.2</number>
+			<number>59.1</number>
+			<number>60.2</number>
+			<number>74.9</number>
+			<number>59.1</number>
+			<number>24.6</number>
+			<number>26.3</number>
+			<number>23.6</number>
+			<number>23.6</number>
+			<number>23.7</number>
+			<number>23.5</number>
+			<number>37.7</number>
+			<number>577.5</number>
+			<number>50.3</number>
+			<number>62.5</number>
+			<number>63.3</number>
+			<number>76.9</number>
+			<number>38.4</number>
+			<number>72.5</number>
+			<number>88.2</number>
+			<number>77.0</number>
+			<number>45.9</number>
+			<number>62.9</number>
+			<number>61.5</number>
+			<number>71.1</number>
+		</row>
+	</chart_data>
+	<link>
+		<area x='55' y='50' width='240' height='120' target='_self' url='/view/realtimeMonitor/physicalInterface.php?time=1360315678'/>
+		<area x='100' y='2' width='100' height='38' target='_self' url='/view/realtimeMonitor/physicalInterface.php?time=1360315678&phyif=WAN1' tooltip='on the last one hour'/>
+	</link>
+	<tooltip font='arial' bold='false' background_color='A1BEEF' background_alpha='90'/>
+	<filter>
+		<shadow id='low' distance='2' angle='45' alpha='35' blurX='5' blurY='5' color='A1BEEF' />
+	</filter>
+	<series_color>
+		<color>0000FF</color>
+		<color>00FF00</color>
+	</series_color>
+	<update url='/cgi-bin/realtimemonitor.cgi?update=1360315678&lan=en_US&linecolor=A1BEEF&linkcolor=2160B8&object=home&chart=line' delay='10' timeout='10' retry='100' mode='reset'/>
+</chart>

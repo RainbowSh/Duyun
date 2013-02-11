@@ -1,0 +1,40 @@
+﻿<chart>
+	<context_menu about='false' print='false' full_screen='true' quality='false'/>
+	<chart_rect hide='true'/>
+	<legend layout='hide'/>
+	<draw>
+		<rect fill_alpha='0' line_color='A1BEEF' line_thickness='1' x='0' y='0' width='299' height='99'/>
+		<line fill_alpha='0' line_color='A1BEEF' line_thickness='1' x1='0' y1='20' x2='380' y2='20'/>
+		<line fill_alpha='0' line_color='A1BEEF' line_thickness='1' x1='0' y1='40' x2='380' y2='40'/>
+		<line fill_alpha='0' line_color='A1BEEF' line_thickness='1' x1='0' y1='60' x2='380' y2='60'/>
+		<line fill_alpha='0' line_color='A1BEEF' line_thickness='1' x1='0' y1='80' x2='380' y2='80'/>
+		<line fill_alpha='0' line_color='A1BEEF' line_thickness='1' x1='140' y1='0' x2='140' y2='100'/>
+		<text font='arial' bold='false' color='000000' size='12' x='5' y='0' width='135' height='20' h_align='left' v_align='middle'>CPU Utilization</text> 
+		<rect fill_alpha='100'  fill_color='00ff00' x='145' y='3' width='3' height='15' bevel='percent'/>
+		<rect fill_alpha='0' line_color='A1BEEF' line_thickness='1' x='144' y='2' width='151' height='16'/>
+		<text bold='false' color='000000' size='12' x='145' y='0' width='150' height='20' h_align='center' v_align='middle'> 2.2%</text> 
+		<text font='arial' bold='false' color='000000' size='12' x='5' y='20' width='135' height='20' h_align='left' v_align='middle'>Memory Utilization</text> 
+		<rect fill_alpha='100'  fill_color='00ff00' x='145' y='23' width='46' height='15' bevel='percent'/>
+		<rect fill_alpha='0' line_color='A1BEEF' line_thickness='1' x='144' y='22' width='151' height='16'/>
+		<text bold='false' color='000000' size='12' x='145' y='20' width='150' height='20' h_align='center' v_align='middle'>30.9%</text> 
+		<text font='arial' bold='false' color='000000' size='12' x='5' y='40' width='135' height='20' h_align='left' v_align='middle'>Sessions</text> 
+		<text bold='false' color='000000' size='12' x='145' y='40' width='150' height='20' h_align='right' v_align='middle'>13/128000</text> 
+		<text font='arial' bold='false' color='000000' size='12' x='5' y='60' width='135' height='20' h_align='left' v_align='middle'>Online Users</text> 
+		<text bold='false' color='000000' size='12' x='145' y='60' width='150' height='20' h_align='right' v_align='middle'>1</text> 
+		<text font='arial' bold='false' color='000000' size='12' x='5' y='80' width='135' height='20' h_align='left' v_align='middle'>Online Auth User</text> 
+		<text bold='false' color='000000' size='12' x='145' y='80' width='150' height='20' h_align='right' v_align='middle'>0</text> 
+	</draw>
+	<link>
+		<area x='0' y='2' width='300' height='16' target='_self' url='/view/realtimeMonitor/resource.php?time=1360316139&resource=cpu' tooltip='on the last one hour'/>
+		<area x='0' y='22' width='300' height='16' target='_self' url='/view/realtimeMonitor/resource.php?time=1360316139&resource=memory' tooltip='on the last one hour'/>
+		<area x='0' y='42' width='300' height='16' target='_self' url='/view/realtimeMonitor/resource.php?time=1360316139&resource=sessions' tooltip='on the last one hour'/>
+		<area x='0' y='62' width='300' height='16' target='_self' url='/view/realtimeMonitor/resource.php?time=1360316139&resource=onlineip' tooltip='on the last one hour'/>
+		<area x='0' y='82' width='300' height='16' target='_self' url='/view/realtimeMonitor/resource.php?time=1360316139&resource=onlineuser' tooltip='on the last one hour'/>
+	</link>
+	<tooltip font='arial' bold='false' background_color='A1BEEF' background_alpha='90'/>
+	<filter>
+		<shadow id='low' distance='2' angle='45' alpha='35' blurX='5' blurY='5' color='A1BEEF' />
+		<bevel id='percent' angle='80' blurX='0' blurY='20' distance='3' highlightAlpha='40' highlightColor='ffffff' shadowColor='000000' shadowAlpha='35' type='inner' />
+	</filter>
+	<update url='/cgi-bin/realtimemonitor.cgi?update=1360316139&lan=en_US&linecolor=A1BEEF&linkcolor=2160B8&object=resource&chart=blank' delay='10' timeout='10' retry='100' mode='reset'/>
+	</chart>
